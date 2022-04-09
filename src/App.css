@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Grape+Nuts&display=swap");
+.App {
+  width: 99vw;
+  height: 99vh;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  border: 1px solid green;
+  width: 40%;
+  height: auto;
+  padding: 1em;
+}
+.inputdiv {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.heading {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+  font-family: "Grape Nuts", cursive;
+}
+label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.8em;
+  margin-bottom: 0;
+  color: chocolate;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+input {
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid chocolate;
+  width: 98%;
+  padding: 0.3em
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: red;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::placeholder {
+  color: lightgray;
+  font-size: 0.9em;
+}
